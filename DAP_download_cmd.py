@@ -11,8 +11,8 @@ from doe_dap_dl import DAP
 warnings.filterwarnings("ignore")
 
 #%% Inputs
-username = 'sletizia'#ask DAP (dapteam@pnnl.gov)
-password = 'pass_DAP1506@'
+username = ''#ask DAP (dapteam@pnnl.gov)
+password = ''
 channels = {'lidar1': 'raaw/nrel.lidar.z01.b0','lidar2': 'raaw/nrel.lidar.z02.b0',
             'met': 'raaw/ge.met.z01.b0', 'scada': 'raaw/ge.turbine.z01.b0'}
 MFA = True #multi factor authenticaiton needed? this is necessary for propietary datasets
